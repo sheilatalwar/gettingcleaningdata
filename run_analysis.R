@@ -1,9 +1,4 @@
-#Notes:  #train/subject_train.txt = Subject info, range from 1 to 30
-#train/X_train.txt = dataset
-#train/y_train.txt = Training labels (activity) 
-#features_info.txt: Shows information about the variables used on the feature vector. 16 variables x 17 fn
-#features.txt': List of all features that are recorded (561, each with a label) - column headings
-#activity_labels.txt': Links the class labels with their activity name.
+#getDataset() is a function that retrieves the components of a dataset and binds the elements together
 getDataset<-function(datasetFile, subjectFile, activityFile, columnLabels)
 {
   #Read dataset into a dataframe, using the columnLabels as the column names
@@ -16,6 +11,9 @@ getDataset<-function(datasetFile, subjectFile, activityFile, columnLabels)
   dataset
 }
 
+#makeTidy() is a function that reads in the two datasets, binds them together, 
+#isolates the mean and standard deviation variables, and translates activity IDs to activity labels.  
+#Finally, it creates a tidy dataset that summarizes the variables by SubjectID and Activity
 makeTidy<-function()
 {
   #Read labels from columns from the features.txt file, and eliminate () from the names
