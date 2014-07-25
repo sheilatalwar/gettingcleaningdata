@@ -30,77 +30,135 @@ Variables:
     - ID of the subject of the experiment
 - Activity: String	
     - Activity the subject was doing when data was recorded
-- tBodyAcc.mean.X	    Numeric, bounded within [-1,1]
+- tBodyAcc.mean.X: Numeric, bounded within [-1,1]
     - Mean of Body Triaxial Acceleration Signal - X axis
-tBodyAcc.mean.Y	    Numeric, bounded within [-1,1]
-  - Mean of Body Triaxial Acceleration Signal - Y axis
-tBodyAcc.mean.Z	    Numeric, bounded within [-1,1]	
-  - Mean of Body Triaxial Acceleration Signal - Z axis
-tBodyAcc.std.X	    Numeric, bounded within [-1,1]	
-  - Standard Deviation of Body Triaxial Acceleration Signal- X axis
-tBodyAcc.std.Y	    Numeric, bounded within [-1,1]	
-  - Standard Deviation of  Body Triaxial Acceleration Signal - Y axis
-tBodyAcc.std.Z	    Numeric, bounded within [-1,1]	
-  - Standard Deviation of Body Triaxial Acceleration Signal - Z axis
-tGravityAcc.mean.X  Numeric, bounded within [-1,1]	
-  - Mean of Gravity Triaxial Acceleration Signal - X axis
-tGravityAcc.mean.Y	Numeric, bounded within [-1,1]	
-  - Mean of Gravity Triaxial Acceleration Signal - Y axis
-tGravityAcc.mean.Z	Numeric, bounded within [-1,1]	
-  - Mean of Gravity Triaxial Acceleration Signal - Z axis
-tGravityAcc.std.X	  Numeric, bounded within [-1,1]	
-  - Standard Deviation of Gravity Triaxial Acceleration Signal- X axis
-tGravityAcc.std.Y	  Numeric, bounded within [-1,1]	
-  - Standard Deviation of  Gravity Triaxial Acceleration Signal - Y axis
-tGravityAcc.std.Z	  Numeric, bounded within [-1,1]	
-  - Standard Deviation of Gravity Triaxial Acceleration Signal - Z axis
-tBodyAccJerk.mean.X	Numeric, bounded within [-1,1]	
-  - Mean of Body Triaxial Acceleration Jerk Signal - X axis
-tBodyAccJerk.mean.Y	Numeric, bounded within [-1,1]	
-  - Mean of Body Triaxial Acceleration Jerk Signal - Y axis
-tBodyAccJerk.mean.Z	Numeric, bounded within [-1,1]	
-  - Mean of Body Triaxial Acceleration Jerk Signal - Z axis
-tBodyAccJerk.std.X	Numeric, bounded within [-1,1]	
-  - Standard Deviation of Body Triaxial Acceleration Jerk Signal- X axis
-tBodyAccJerk.std.Y	Numeric, bounded within [-1,1]	
-  - Standard Deviation of  Body Triaxial Acceleration Jerk Signal - Y axis
-tBodyAccJerk.std.Z	Numeric, bounded within [-1,1]	
-  - Standard Deviation of Body Triaxial Acceleration Jerk Signal - Z axis
-tBodyGyro.mean.X	  Numeric, bounded within [-1,1]	
-  - Mean of Body Triaxial Gyroscopic Signal - X axis
-tBodyGyro.mean.Y	  Numeric, bounded within [-1,1]	
-  - Mean of Body Triaxial Gyroscopic Signal - Y axis
-tBodyGyro.mean.Z	  Numeric, bounded within [-1,1]	
-  - Mean of Body Triaxial Gyroscopic Signal - Z axis
-tBodyGyro.std.X	    Numeric, bounded within [-1,1]	
-  - Standard Deviation of Body Triaxial Gyroscopic Signal- X axis
-tBodyGyro.std.Y	    Numeric, bounded within [-1,1]	
-  - Standard Deviation of  Body Triaxial Gyroscopic Signal - Y axis
-tBodyGyro.std.Z	    Numeric, bounded within [-1,1]	
-  - Standard Deviation of Body Triaxial Gyroscopic Signal - Z axis
-tBodyGyroJerk.mean.XNumeric, bounded within [-1,1]	
-  - Mean of Body Triaxial Gyroscopic Jerk Signal - X axis
-tBodyGyroJerk.mean.YNumeric, bounded within [-1,1]	
-  - Mean of Body Triaxial Gyroscopic Jerk Signal - Y axis
-tBodyGyroJerk.mean.ZNumeric, bounded within [-1,1]	
-  - Mean of Body Triaxial Gyroscopic Jerk Signal - Z axis
-tBodyGyroJerk.std.X	Numeric, bounded within [-1,1]	
-  - Standard Deviation of Body Triaxial Gyroscopic Jerk Signal- X axis
-tBodyGyroJerk.std.Y	Numeric, bounded within [-1,1]	
-  - Standard Deviation of  Body Triaxial Gyroscopic Jerk Signal - Y axis
-tBodyGyroJerk.std.Z	Numeric, bounded within [-1,1]	
-  - Standard Deviation of Body Triaxial Gyroscopic Jerk Signal - Z axis
-tBodyAccMag.mean	  Numeric, bounded within [-1,1]	
-  - Mean of Magnitude of Body Acceleration Signal
-tBodyAccMag.std	    Numeric, bounded within [-1,1]	
-  - Standard Deviation of Magnitude of Body Acceleration Signal
-tGravityAccMag.mean	Numeric, bounded within [-1,1]	
-  - Mean of Magnitude of Gravity Acceleration Signal
-tGravityAccMag.std	Numeric, bounded within [-1,1]	
+- tBodyAcc.mean.Y: Numeric, bounded within [-1,1]
+    - Mean of Body Triaxial Acceleration Signal - Y axis
+- tBodyAcc.mean.Z: Numeric, bounded within [-1,1]	
+    - Mean of Body Triaxial Acceleration Signal - Z axis
+- tBodyAcc.std.X: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Body Triaxial Acceleration Signal- X axis
+- tBodyAcc.std.Y: Numeric, bounded within [-1,1]	
+    - Standard Deviation of  Body Triaxial Acceleration Signal - Y axis
+- tBodyAcc.std.Z: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Body Triaxial Acceleration Signal - Z axis
+- tGravityAcc.mean.X: Numeric, bounded within [-1,1]	
+    - Mean of Gravity Triaxial Acceleration Signal - X axis
+- tGravityAcc.mean.Y: Numeric, bounded within [-1,1]	
+    - Mean of Gravity Triaxial Acceleration Signal - Y axis
+- tGravityAcc.mean.Z: Numeric, bounded within [-1,1]	
+    - Mean of Gravity Triaxial Acceleration Signal - Z axis
+- tGravityAcc.std.X: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Gravity Triaxial Acceleration Signal- X axis
+- tGravityAcc.std.Y: Numeric, bounded within [-1,1]	
+    - Standard Deviation of  Gravity Triaxial Acceleration Signal - Y axis
+- tGravityAcc.std.Z: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Gravity Triaxial Acceleration Signal - Z axis
+- tBodyAccJerk.mean.X: Numeric, bounded within [-1,1]	
+    - Mean of Body Triaxial Acceleration Jerk Signal - X axis
+- tBodyAccJerk.mean.Y: Numeric, bounded within [-1,1]	
+    - Mean of Body Triaxial Acceleration Jerk Signal - Y axis
+- tBodyAccJerk.mean.Z: Numeric, bounded within [-1,1]	
+    - Mean of Body Triaxial Acceleration Jerk Signal - Z axis
+- tBodyAccJerk.std.X: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Body Triaxial Acceleration Jerk Signal- X axis
+- tBodyAccJerk.std.Y: Numeric, bounded within [-1,1]	
+    - Standard Deviation of  Body Triaxial Acceleration Jerk Signal - Y axis
+- tBodyAccJerk.std.Z: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Body Triaxial Acceleration Jerk Signal - Z axis
+- tBodyGyro.mean.X: Numeric, bounded within [-1,1]	
+    - Mean of Body Triaxial Gyroscopic Signal - X axis
+- tBodyGyro.mean.Y: Numeric, bounded within [-1,1]	
+    - Mean of Body Triaxial Gyroscopic Signal - Y axis
+- tBodyGyro.mean.Z: Numeric, bounded within [-1,1]	
+    - Mean of Body Triaxial Gyroscopic Signal - Z axis
+- tBodyGyro.std.X: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Body Triaxial Gyroscopic Signal- X axis
+- tBodyGyro.std.Y: Numeric, bounded within [-1,1]	
+    - Standard Deviation of  Body Triaxial Gyroscopic Signal - Y axis
+- tBodyGyro.std.Z: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Body Triaxial Gyroscopic Signal - Z axis
+- tBodyGyroJerk.mean.X: Numeric, bounded within [-1,1]	
+    - Mean of Body Triaxial Gyroscopic Jerk Signal - X axis
+- tBodyGyroJerk.mean.Y: Numeric, bounded within [-1,1]	
+    - Mean of Body Triaxial Gyroscopic Jerk Signal - Y axis
+- tBodyGyroJerk.mean.Z: Numeric, bounded within [-1,1]	
+    - Mean of Body Triaxial Gyroscopic Jerk Signal - Z axis
+- tBodyGyroJerk.std.X: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Body Triaxial Gyroscopic Jerk Signal- X axis
+- tBodyGyroJerk.std.Y: Numeric, bounded within [-1,1]	
+    - Standard Deviation of  Body Triaxial Gyroscopic Jerk Signal - Y axis
+- tBodyGyroJerk.std.Z: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Body Triaxial Gyroscopic Jerk Signal - Z axis
+- tBodyAccMag.mean: Numeric, bounded within [-1,1]	
+    - Mean of Magnitude of Body Acceleration Signal
+- tBodyAccMag.std: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Magnitude of Body Acceleration Signal
+- tGravityAccMag.mean: Numeric, bounded within [-1,1]	
+    - Mean of Magnitude of Gravity Acceleration Signal
+- tGravityAccMag.std: Numeric, bounded within [-1,1]	
   - Standard Deviation of Magnitude of Gravity Acceleration Signal
-tBodyAccJerkMag.meanNumeric, bounded within [-1,1]	
+- tBodyAccJerkMag.mean: Numeric, bounded within [-1,1]	
   - Mean of  Magnitude of Body  Acceleration Jerk Signal
-tBodyAccJerkMag.std	Numeric, bounded within [-1,1]	
-  - Standard Deviation of Magnitude of Body Acceleration Jerk Signal
-tBodyGyroMag.mean	  Numeric, bounded within [-1,1]	
-  - Mean of Magnitude of Body Gyroscopic Signal
+- tBodyAccJerkMag.std: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Magnitude of Body Acceleration Jerk Signal
+- tBodyGyroMag.mean: Numeric, bounded within [-1,1]	
+    - Mean of Magnitude of Body Gyroscopic Signal
+- tBodyGyroMag.std: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Magnitude of Body Gyroscopic Signal
+- tBodyGyroJerkMag.mean: Numeric, bounded within [-1,1]
+    - Mean of  Magnitude of Body Gyroscopic Jerk Signal
+- tBodyGyroJerkMag.std: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Magnitude of Body Gyroscopic Jerk Signal
+- fBodyAcc.mean.X: Numeric, bounded within [-1,1]	
+    - Mean of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Signal - X axis
+- fBodyAcc.mean.Y: Numeric, bounded within [-1,1]	
+    - Mean of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Signal - Y axis
+- fBodyAcc.mean.Z: Numeric, bounded within [-1,1]	
+    - Mean of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Signal - Z axis
+- fBodyAcc.std.X: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Signal- X axis
+- fBodyAcc.std.Y: Numeric, bounded within [-1,1]	
+    - Standard Deviation of  Fast Fourier Transform (FFT) of Body Triaxial Acceleration Signal - Y axis
+- fBodyAcc.std.Z: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Signal - Z axis
+- fBodyAccJerk.mean.X: Numeric, bounded within [-1,1]	
+    - Mean of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Jerk Signal - X axis
+- fBodyAccJerk.mean.Y: Numeric, bounded within [-1,1]	
+    - Mean of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Jerk Signal - Y axis
+- fBodyAccJerk.mean.Z: Numeric, bounded within [-1,1]	
+    - Mean of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Jerk Signal - Z axis
+fBodyAccJerk.std.X: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Jerk Signal- X axis
+fBodyAccJerk.std.Y: Numeric, bounded within [-1,1]	
+    - Standard Deviation of  Fast Fourier Transform (FFT) of Body Triaxial Acceleration Jerk Signal - Y axis
+fBodyAccJerk.std.Z: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Jerk Signal - Z axis
+fBodyGyro.mean.X: Numeric, bounded within [-1,1]	
+    - Mean of Fast Fourier Transform (FFT) of Body Triaxial Gyroscopic Signal - X axis
+fBodyGyro.mean.Y: Numeric, bounded within [-1,1]	
+    - Mean of Fast Fourier Transform (FFT) of Body Triaxial Gyroscopic Signal - Y axis
+fBodyGyro.mean.Z: Numeric, bounded within [-1,1]	
+    - Mean of Fast Fourier Transform (FFT) of Body Triaxial Gyroscopic Signal - Z axis
+- fBodyGyro.std.X: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Fast Fourier Transform (FFT) of Body Triaxial Gyroscopic Signal- X axis
+- fBodyGyro.std.Y: Numeric, bounded within [-1,1]	
+    - Standard Deviation of  Fast Fourier Transform (FFT) of Body Triaxial Gyroscopic Signal - Y axis
+- fBodyGyro.std.Z: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Fast Fourier Transform (FFT) of Body Triaxial Gyroscopic Signal - Z axis
+- fBodyAccMag.mean: Numeric, bounded within [-1,1]	
+    - Mean of Magnitude of Fast Fourier Transform (FFT) of Body Acceleration Signal
+- fBodyAccMag.std: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Magnitude of Fast Fourier Transform (FFT) of Body Acceleration Signal
+- fBodyBodyAccJerkMag.mean: Numeric, bounded within [-1,1]	
+    - Mean of Magnitude of Fast Fourier Transform (FFT) of Body Acceleration Jerk Signal
+- fBodyBodyAccJerkMag.std: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Magnitude of Fast Fourier Transform (FFT) of Body Acceleration Jerk Signal
+- fBodyBodyGyroMag.mean: Numeric, bounded within [-1,1]	
+    - Mean of  Magnitude of Fast Fourier Transform (FFT) of Body Gyroscopic Signal
+- fBodyBodyGyroMag.std: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Fast Fourier Transform (FFT) of Magnitude of Body Gyroscopic Signal
+- fBodyBodyGyroJerkMag.mean: Numeric, bounded within [-1,1]	
+    - Mean of Magnitude of Fast Fourier Transform (FFT) of Body Gyroscopic Jerk Signal
+- fBodyBodyGyroJerkMag.std: Numeric, bounded within [-1,1]	
+    - Standard Deviation of Magnitude of Fast Fourier Transform (FFT) of Body Gyroscopic Jerk Signal
