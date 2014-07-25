@@ -1,7 +1,7 @@
 Getting & Cleaning Data Class Project Data Dictionary
 =====================================================
 
-Getting &amp; Cleaning Data Class Project
+Experiment Summary:
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -9,8 +9,8 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 A test dataset and a training dataset were created, and the data was collected separately, but in the same format.  Those files were provided to the student.  See README.md for more details.  
 
-Tidy Dataset:
-==============
+Tidy Dataset Description & Transformation:
+==========================================
 - The original data was read in, and formatted into a tidy dataset.  
 - An R script (called run_analysis.R) did the following:
   - Merged the training and the test sets to create one data set.
@@ -22,14 +22,21 @@ Tidy Dataset:
 - There are 66 measurements for each combination of SubjectID and Activity, reflecting the mean and standard deviation of each of the datapoints
 
 
-Columns:
-========
-Variables:  
+Tidy Dataset Variables:
+=====================
+
 
 - SubjectID: Integer, Range: 1-30	
     - ID of the subject of the experiment
 - Activity: String	
     - Activity the subject was doing when data was recorded
+    - Possible Values:
+      - WALKING
+      - WALKING_UPSTAIRS
+      - WALKING_DOWNSTAIRS
+      - SITTING
+      - STANDING
+      - LAYING
 - tBodyAcc.mean.X: Numeric, bounded within [-1,1]
     - Mean of Body Triaxial Acceleration Signal - X axis
 - tBodyAcc.mean.Y: Numeric, bounded within [-1,1]
@@ -114,7 +121,7 @@ Variables:
     - Mean of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Signal - X axis
 - fBodyAcc.mean.Y: Numeric, bounded within [-1,1]	
     - Mean of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Signal - Y axis
-- fBodyAcc.mean.Z: Numeric, bounded within [-1,1]	
+- fBodyAcc.mean.Z: Numeric, bounded within [-1,1]
     - Mean of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Signal - Z axis
 - fBodyAcc.std.X: Numeric, bounded within [-1,1]	
     - Standard Deviation of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Signal- X axis
@@ -122,23 +129,23 @@ Variables:
     - Standard Deviation of  Fast Fourier Transform (FFT) of Body Triaxial Acceleration Signal - Y axis
 - fBodyAcc.std.Z: Numeric, bounded within [-1,1]	
     - Standard Deviation of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Signal - Z axis
-- fBodyAccJerk.mean.X: Numeric, bounded within [-1,1]	
+- fBodyAccJerk.mean.X: Numeric, bounded within [-1,1]
     - Mean of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Jerk Signal - X axis
-- fBodyAccJerk.mean.Y: Numeric, bounded within [-1,1]	
+- fBodyAccJerk.mean.Y: Numeric, bounded within [-1,1]
     - Mean of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Jerk Signal - Y axis
 - fBodyAccJerk.mean.Z: Numeric, bounded within [-1,1]	
     - Mean of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Jerk Signal - Z axis
-fBodyAccJerk.std.X: Numeric, bounded within [-1,1]	
+- fBodyAccJerk.std.X: Numeric, bounded within [-1,1]	
     - Standard Deviation of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Jerk Signal- X axis
-fBodyAccJerk.std.Y: Numeric, bounded within [-1,1]	
+- fBodyAccJerk.std.Y: Numeric, bounded within [-1,1]	
     - Standard Deviation of  Fast Fourier Transform (FFT) of Body Triaxial Acceleration Jerk Signal - Y axis
-fBodyAccJerk.std.Z: Numeric, bounded within [-1,1]	
+- fBodyAccJerk.std.Z: Numeric, bounded within [-1,1]	
     - Standard Deviation of Fast Fourier Transform (FFT) of Body Triaxial Acceleration Jerk Signal - Z axis
-fBodyGyro.mean.X: Numeric, bounded within [-1,1]	
+- fBodyGyro.mean.X: Numeric, bounded within [-1,1]	
     - Mean of Fast Fourier Transform (FFT) of Body Triaxial Gyroscopic Signal - X axis
-fBodyGyro.mean.Y: Numeric, bounded within [-1,1]	
+- fBodyGyro.mean.Y: Numeric, bounded within [-1,1]	
     - Mean of Fast Fourier Transform (FFT) of Body Triaxial Gyroscopic Signal - Y axis
-fBodyGyro.mean.Z: Numeric, bounded within [-1,1]	
+- fBodyGyro.mean.Z: Numeric, bounded within [-1,1]	
     - Mean of Fast Fourier Transform (FFT) of Body Triaxial Gyroscopic Signal - Z axis
 - fBodyGyro.std.X: Numeric, bounded within [-1,1]	
     - Standard Deviation of Fast Fourier Transform (FFT) of Body Triaxial Gyroscopic Signal- X axis
